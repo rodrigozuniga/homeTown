@@ -1,0 +1,184 @@
+
+*,*:after, *:before{
+    box-sizing: border-box;
+}
+
+html,body{
+background: rgba(195, 239, 195, 0.2);
+background: rgb(195,239,195);
+background: linear-gradient(248deg, rgba(195,239,195,0.832) 0%, rgba(214,247,214,1) 99%);
+    margin:0px;
+    padding:0px;
+    font-family: Montserrat;
+    width:775px;
+    width-max:700px;
+    width-min:650px;
+}
+
+#hero{
+height:550px;
+background-image: url(./assets/springLake.jpg);
+margin-top: -22px;
+padding-bottom:0;
+background-repeat: no-repeat;
+background-size:cover;
+border:0px solid black
+}
+
+#mainTitle{
+    text-align:center;
+    padding-top:15px;
+    color:rgb(229, 61, 32);
+    font-size:2rem;
+    font-weight:900;
+}
+
+#subtitle{
+    text-align:center;
+    color:rgb(250, 250, 250);
+    font-size:1.3em;
+    font-weight:900;
+}
+
+#activitiesSection{
+    display:flex;
+    flex-direction: column;
+    margin-top:0;
+    padding-top:0;
+    text-align: center;
+}
+
+#top3Activities{
+    text-align:center;
+    margin-top:0;
+    padding-top:15px;
+    font-size:2em;
+    color:rgb(75, 75, 75);
+}
+
+#activitiesContainer{
+    display:flex;
+    flex-direction:row;
+    height:400px;
+    width:770px;
+    align-self: center;
+    border:none solid 1px;
+    margin:0 auto;
+    color:rgb(75, 75, 75);
+}
+
+.imgContainer{
+    display:flex;
+    flex-direction: column;
+    width: calc(100%/3); 
+    border:green solid 1px;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 8px;
+    color:rgb(75, 75, 75);
+    box-shadow: 1px 1px 3px 0px rgba(171,162,171,0.8);
+    padding:0.1em;
+}
+
+.activitiesTitle{
+    font-weight: 700;
+    color:rgb(75, 75, 75);
+    text-align: center;
+}
+
+.activitiesImg1{
+    height:8em;
+    margin:0 5px;
+    border-radius: 10px;
+    padding-bottom:0.1em;
+}
+
+
+.activitiesImg1:hover{
+    border: lightgray solid 1px;
+}
+
+#guideContainer{
+    display:flex;
+    flex-direction: row;
+    height:350px;
+    width:450px;
+    background:rgb(95, 163, 206)&noise=926262&density=15&opacity=0.1;
+    background: linear-gradient(248deg, rgb(205, 224, 235) 54%,rgb(182, 216, 236) 25%);
+    align-content: center;
+    justify-content: center;
+    margin:20px auto;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: -1px -2px 9px 0px rgba(171,162,171,0.8);
+}
+
+#guideTextContainer{
+    text-align: center;
+    padding:25px 20px;
+    color:rgb(75, 75, 75);
+}
+
+@media  screen and (max-width:450px)  {
+
+    html{width 450px;border:none 1px solid}
+    body{width 450px;height:3000px;border:none 1px solid}
+
+    #hero{height:300px;width: 350px;        margin:auto;
+          background-size:contain;border:1px solid none; margin-bottom:-2.5em}
+    #mainTitle{font-size: 1.25em;text-align:center;}
+    #subtitle{font-size: 0.85em;text-align:center;}
+    #activitiesSection{width:350px;align-items:center; 
+    border:none 1px solid; margin:auto;padding-top:0;}
+    #top3Activities{font-size:1em}
+    #activitiesTitle{font-size: 1em; text-align: center;}
+
+    #activitiesContainer{
+        width:350px;
+        height:900px;
+        flex-direction: column;
+        align-items:center;
+ 
+    }
+    .imgContainer{
+        display:flex;
+        direction:column;
+        width:300px;
+        margin-bottom:5px;
+    }
+
+    #guideContainer{
+        display:flex;
+        flex-direction: row;
+        width:300px;
+        margin:auto auto;
+        border:none 1px solid;
+    }
+
+    #guideTitle{
+        padding:0px;
+        margin:0px
+    }
+
+    #guideTextContainer{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        padding:0px;
+        margin:0px;
+        color:rgb(75, 75, 75);
+}
+    #dogMe{
+        width:70px;
+        height:210px;
+    }
+    
+
+
+
+
+
+
+
+
+
